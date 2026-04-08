@@ -1,0 +1,25 @@
+{
+  "name": "sgmv2",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "UzSpace",
+  "description": "Space Government Monitoring v2 – landscape cards with language switching",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasSettingPage": true
+  },
+  "settingPanel": {
+    "title": "Space Government Monitoring v2",
+    "size": "small"
+  },
+  "translatedLocales": [
+    "en",
+    "ru"
+  ],
+  "defaultSize": {
+    "width": 1280,
+    "height": 720
+  }
+}
