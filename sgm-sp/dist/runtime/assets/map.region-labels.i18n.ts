@@ -31,6 +31,7 @@ const LABELS: Record<string, LabelSpec> = {
     fontSize: 32,
     dx: 0,
     dy: -20,
+    focusDy: -16,
     textByLang: {
       uz: "Qoraqalpog‘iston\nRespublikasi",
       uz_cy: "Қорақалпоғистон\nРеспубликаси",
@@ -108,6 +109,7 @@ const LABELS: Record<string, LabelSpec> = {
     fontSize: 20,
     dx: 10,
     dy: 0,
+    focusDy: -14,
     textByLang: {
       uz: "Sirdaryo",
       uz_cy: "Сирдарё",
@@ -151,7 +153,8 @@ const LABELS: Record<string, LabelSpec> = {
   "shape-2": {
     fontSize: 24,
     dx: 5,
-    dy: -15,
+    dy: 8,
+    focusDy: -22,
     textByLang: {
       uz: "Farg‘ona",
       uz_cy: "Фарғона",
@@ -219,6 +222,8 @@ export function getMapRegionLabels(lang: Language): Record<string, MapRegionLabe
       text: spec.textByLang[lang],
       dx: spec.dx,
       dy: spec.dy,
+      focusDx: spec.focusDx,
+      focusDy: spec.focusDy,
       fontSize: spec.fontSize,
       maxWidth: spec.maxWidth,
     };

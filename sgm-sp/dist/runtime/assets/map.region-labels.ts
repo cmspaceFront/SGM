@@ -2,6 +2,9 @@ export type MapRegionLabel = {
   text: string;
   dx?: number;
   dy?: number;
+  /** Доп. смещение подписи при zoom-in (поверх dx/dy). */
+  focusDx?: number;
+  focusDy?: number;
   fontSize?: number;
   maxWidth?: number;
 };
@@ -27,7 +30,7 @@ export const MAP_REGION_LABELS: Record<string, MapRegionLabel> = {
   "shape-165": { text: "Toshkent", fontSize: 25, dx: -15, dy: 0 },
   "shape-166": { text: "Namangan", fontSize: 16, dx: -5, dy: 10 },
   "shape-168": { text: "Andijon", fontSize: 20, dx: -5, dy: -5 },
-  "shape-2": { text: "Farg‘ona", fontSize: 24, dx: 5, dy: -15 },
+  "shape-2": { text: "Farg‘ona", fontSize: 24, dx: 5, dy: 8, focusDy: -22 },
 
 
   // Текущая версия `map.svg` использует технические id `r1..r14`.
