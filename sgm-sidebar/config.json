@@ -2,5 +2,7 @@
   "cardLinkParams": {},
   "cardLinks": {},
   "panelPlacement": "side",
-  "autoHideDelaySeconds": 6
+  "autoHideDelaySeconds": 6,
+  "edgeRevealRailIdleSeconds": 2,
+  "edgeGlowPulseSeconds": 6
 }
