@@ -5,7 +5,7 @@
 * All rights reserved.
 *
 * LICENSE
-* https://github.com/ecomfe/zrender/blob/master/LICENSE.txt
+* https://github.com/ecomfe/zrender/blob/master/LICENSE
 */
 
 /*! *****************************************************************************
