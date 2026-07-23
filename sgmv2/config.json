@@ -1,5 +1,12 @@
 {
   "cardLinkParams": {},
   "cardLinks": {},
-  "portalAccessGroups": []
+  "portalAccessGroups": [],
+  "aiProjectsAccessGroups": [],
+  "chromeActionOrder": [
+    "otherProjects",
+    "aiProjects",
+    "monitoring",
+    "unifiedPortal"
+  ]
 }
