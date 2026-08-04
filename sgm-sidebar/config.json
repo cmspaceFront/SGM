@@ -4,5 +4,6 @@
   "panelPlacement": "side",
   "autoHideDelaySeconds": 6,
   "edgeRevealRailIdleSeconds": 2,
+  "ipadAutoCloseSeconds": 5,
   "edgeGlowPulseSeconds": 6
 }
