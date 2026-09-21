@@ -2,7 +2,11 @@
   "cardLinkParams": {},
   "cardLinks": {},
   "portalAccessGroups": [],
+  "portalAccessUsers": [],
   "aiProjectsAccessGroups": [],
+  "aiProjectsAccessUsers": [],
+  "importAccessGroups": [],
+  "importAccessUsers": [],
   "chromeActionOrder": [
     "otherProjects",
     "aiProjects",
