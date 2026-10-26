@@ -5,11 +5,14 @@
   "portalAccessUsers": [],
   "aiProjectsAccessGroups": [],
   "aiProjectsAccessUsers": [],
+  "gisAccessGroups": [],
+  "gisAccessUsers": [],
   "importAccessGroups": [],
   "importAccessUsers": [],
   "chromeActionOrder": [
     "otherProjects",
     "aiProjects",
+    "gis",
     "monitoring",
     "unifiedPortal"
   ]
