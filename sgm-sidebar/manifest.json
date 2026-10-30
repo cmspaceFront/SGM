@@ -2,7 +2,7 @@
   "name": "sgm-sidebar",
   "type": "widget",
   "version": "1.0.0",
-  "exbVersion": "1.14.0",
+  "exbVersion": "1.18.0",
   "author": "UzSpace",
   "description": "Вертикальная колонка карточек Space Government Monitoring (как сайдбар sgmv2). Собственные JPG/SVG; ссылки в настройках.",
   "copyright": "",
