@@ -9,6 +9,8 @@
   "gisAccessUsers": [],
   "importAccessGroups": [],
   "importAccessUsers": [],
+  "customChromeButtons": [],
+  "chromeActionLabels": {},
   "chromeActionOrder": [
     "otherProjects",
     "aiProjects",
